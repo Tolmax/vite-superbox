@@ -1,0 +1,12 @@
+.popup__url {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 104%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    align-self: center;
+}

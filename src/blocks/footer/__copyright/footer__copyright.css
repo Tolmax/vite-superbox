@@ -1,0 +1,27 @@
+.footer__copyright {
+    min-width: 186px;
+    font-family: 'Merriweather-Regular', 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: black;
+    margin: 0;
+    align-self: self-end;
+  }
+
+  @media screen and (min-width: 425px) and (max-width: 767px) {
+    .footer__copyright {
+      margin: 0 0 0 16px;
+      align-self: self-start;
+    }
+  }
+      
+  @media screen and (max-width: 424px) {
+    .footer__copyright {
+      margin: 0 0 0 16px;
+      align-self: self-start;
+    }
+  }
+
+  

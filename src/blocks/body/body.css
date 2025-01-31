@@ -1,0 +1,8 @@
+.body {
+  background-color: yellow;
+  background-image: radial-gradient(ellipse at top,
+      rgb(250, 250, 2),
+      rgb(184, 184, 38),
+      rgb(149, 149, 78));
+  background-attachment: fixed;
+}

@@ -1,0 +1,32 @@
+.popup__button {
+    display: inline-block;
+    padding: 12px 20px 12px;
+    border-radius: 15px;
+    background-color: #d16868;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto;
+
+    transition:
+        background-color 0.2s ease-in,
+        color 0.2s ease-in,
+        border 0.2s ease-in;
+
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.popup__button:hover {
+    background-color: #E41919;
+}
+
+.popup__button:focus {
+    background-color: #E41919;
+}
+
+.popup__button:active {
+    /* position: relative;
+        top: 1px; */
+    background-color: #8E1010;
+    color: #F1C9C9;
+}

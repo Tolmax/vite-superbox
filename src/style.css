@@ -1,0 +1,14 @@
+@import url(../src/blocks/reset.css);
+
+@import url(../src/vendor/normalize.css);
+@import url(../src/vendor/fonts/fonts.css);
+
+@import url(../src/blocks/body/body.css);
+@import url(../src/blocks/header/header.css);
+@import url(../src/blocks/page/page.css);
+@import url(../src/blocks/message/message.css);
+@import url(../src/blocks/popup/popup.css);
+@import url(../src/blocks/goods/goods.css);
+@import url(../src/blocks/footer/footer.css);
+@import url(../src/blocks/stop-scrolling/stop-scrolling.css);
+@import url(../src/blocks/swiper/swiper.css);

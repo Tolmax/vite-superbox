@@ -1,0 +1,164 @@
+:root {
+    --swiper-pagination-bottom: 0px;
+    --swiper-theme-color: green;
+}
+
+
+/* Swiper styles for Main-Slider*/
+
+.main-slider {
+    margin: 0 auto;
+    width: 60%;
+    height: 500px;
+    padding-bottom: 50px !important;
+}
+
+.main-slider .swiper-slide {
+    /* text-align: center;
+    font-size: 18px;
+    background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.main-slider .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+
+
+/* Изменение стилей стрелок */
+
+.main-slider .swiper-button-next,
+.main-slider .swiper-button-prev {
+    /* Cвой цвет для стрелок */
+    color: rgba(231, 207, 207, 0.2);
+
+    background-color: rgba(65, 234, 35, 0.2);
+
+    border-radius: 50%;
+
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Эффект при наведении */
+
+.main-slider .swiper-button-next:hover,
+.main-slider .swiper-button-prev:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    /* color: rgb(0, 0, 0, 0.5); */
+}
+
+/* Swiper styles for swiperModal2*/
+
+.swiperModal2 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.swiperModal2 .swiper-slide {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.swiperModal2 .swiper-slide img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+/* Swiper styles for swiperModal*/
+
+.swiperModal {
+    /* height: 20%; */
+    /* margin-bottom: 10px;	 */
+    /* box-sizing: border-box; */
+    /* padding: 10px 0; */
+    /* overflow: hidden; */
+}
+
+.swiperModal .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.swiperModal .swiper-slide.swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiperModal.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+/* Изменение стилей стрелок */
+.swiperModal2.swiper-button-next,
+.swiperModal2.swiper-button-prev {
+
+    /* Белый цвет для стрелок */
+    color: #fff !important;
+    /* Полупрозрачный черный фон */
+    background-color: rgba(0, 0, 0, 0.5);
+
+    /* Круглая форма */
+    border-radius: 50%;
+
+    /* Увеличиваем размер стрелок */
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Эффект при наведении */
+.swiperModal2.swiper-button-next:hover,
+.swiperModal2.swiper-button-prev:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Светлый фон при наведении */
+    color: #000;
+    /* Темный цвет стрелок при наведении */
+}
+
+/* Common styles */
+
+.no-select {
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE/Edge */
+    user-select: none;
+    /* Стандартный синтаксис */
+}
+
+/* .swiperModalThumbs {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 10px 0;
+} */

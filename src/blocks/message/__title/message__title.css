@@ -1,0 +1,28 @@
+.message__title {
+  max-width: 80vw;
+  font-family: 'Merriweather-Black', 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 104%;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  }
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .message__title {
+    font-size: 40px;
+    max-width: 400px;
+  }
+}    
+@media screen and (max-width: 424px) {
+  .message__title {
+    font-size: 40px;
+    line-height: 104%;
+    max-width: 288px;
+    }
+}

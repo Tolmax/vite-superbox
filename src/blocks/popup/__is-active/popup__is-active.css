@@ -1,0 +1,5 @@
+.popup__is-active {
+    visibility: visible!important;
+    /* display: block;  */
+    /* display: flex; */
+}

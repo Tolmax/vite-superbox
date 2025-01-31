@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Сайт производителя индивидуальной мебели" />
+  <link rel="stylesheet" href="./src/style.css">
+
+  <!-- <meta name="keywords" content="html, css" />
+  <meta name="author" content="Анатолий" /> -->
+  <title>ЯЩИКИ & ЯЩИЧКИ</title>
+</head>
+
+<body class="body">
+  <header class="header">
+    <a class="header__telegramm" href="https://t.me/Mirimar70?text=Привет, я зашел на твой сайт и у меня есть вопрос:"
+      target="_blank" aria-label="Написать в Telegram"></a>
+    <a class="header__whatsapp"
+      href="https://wa.me/+79033433113?text=Привет, я зашел на твой сайт и у меня есть вопрос:" target="_blank"
+      aria-label="Написать в WhatsApp"></a>
+  </header>
+
+  <main class="page">
+    <section class="message">
+      <h1 class="message__title">ЯЩИЧКИ & ЯЩИКИ</h1>
+      <p class="message__subtitle">
+        Производство деревянных ящиков для хранения вещей и продуктов по Вашим
+        индивидуальным размерам
+      </p>
+    </section>
+    <!-- Slider main container -->
+    <section class="swiper main-slider">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <a class="swiper-slide" href="#one"><img class="swiper-slide__img"
+            src="./src/images/boxes/boxes.jpg" alt="Ящики" title="Ящики" /></a>
+        <a class="swiper-slide" href="#two"><img class="swiper-slide__img"
+            src="./src/images/lockers/lockers.jpg" alt="Подставки" title="Подставки" /></a>
+        <a class="swiper-slide" href="#three"><img class="swiper-slide__img"
+            src="./src/images/shelves/shelves.jpg" alt="Шкафы" title="Шкафы" /></a>
+        <a class="swiper-slide" href="#four"><img class="swiper-slide__img"
+            src="./src/images/souvenirs/racks.jpg" alt="Тумбы" title="Тумбы" /></a>
+        <a class="swiper-slide" href="#five"><img class="swiper-slide__img"
+            src="./src/images/tumbs/tumbs.jpg" alt="Стеллажи" title="Стеллажи" /></a>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </section>
+
+    <section class="goods__types" aria-label="Виды продукции"></section>
+  </main>
+
+  <footer class="footer">
+    <nav>
+      <ul class="footer__links">
+        <li>
+          Позвонить по телефону
+          <a href="tel:+79033433113" class="footer__link">+7(903)343-31-13</a>
+        </li>
+        <li>
+          Отправить
+          <a href="mailto:kra1970@mail.ru?Subject=Вопрос с сайта&body=Привет, я зашел на твой сайт и у меня есть вопрос:"
+            class="footer__link">Email</a>
+        </li>
+        <li>
+          Позвонить по
+          <a href="skype:tolmax2000?chat" class="footer__link">Skype</a>
+        </li>
+      </ul>
+    </nav>
+
+    <p class="footer__copyright">AM studio</p>
+  </footer>
+
+
+  <section class="popup">
+    <div class="popup__container">
+      <button class="popup__close" aria-label="закрыть"></button>
+      <div class="popup__left" style="width: 570px;">
+        <div class="popup__swiper">
+          <div class="swiper swiperModal2">
+            <div class="swiper-wrapper">
+
+            </div>
+          </div>
+        </div>
+        <div thumbsSlider="" class="swiper swiperModal">
+          <div class="swiper-wrapper">
+          </div>
+        </div>
+      </div>
+      <div class="popup__desc">
+        <div class="popup__desc-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel officia
+          iusto placeat ipsum ullam minus omnis cupiditate qui. Nihil nisi animi suscipit, non sapiente iste ipsam
+          veniam
+          quaerat eligendi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis quo placea
+          t, provident laudantium facere pariatur voluptatum, nostrum molestiae dolore officiis, animi quibusdam
+          similique
+          maxime harum dignissimos fugiat voluptatibus vitae asperiores. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Culpa asperiores repellendus tempore nisi tenetur cum at optio vitae alias id ratione odio
+          consectetur autem, vel numquam provident deserunt quod! Exercitationem. Lorem ipsum dolor sit amet
+          consectetur
+          adipisicing elit. At, delectus incidunt expedita cumque voluptatibus odit totam voluptate rerum minus, autem
+          dolorem nihil consequuntur! Nihil dicta amet, nobis earum omnis error.</div>
+        <button class="popup__button">
+          <a href="https://market.yandex.ru/product--nabor-korobov-stellazhnykh-bez-kryshki-3-sht-28-28-28-sm-basic-chernyi/1823976873?sku=102181324978&uniqueId=772018&do-waremd5=V8kKS4bnT5rne-D61vYLjg&sponsored=1"
+            target="_blank" class="popup__url">КУПИТЬ</a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <template id="goods-template">
+    <article class="goods__container">
+      <h2 id="" class="goods__title"></h2>
+      <div id="" class="goods__box">
+        <img id="" src="" alt="" class="goods__image" />
+        <p class="goods__paragraph"></p>
+      </div>
+      <div id="" class="goods__render"></div>
+    </article>
+  </template>
+
+  <!-- index.html -->
+  <script type="module" src="./src/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+.message__subtitle {
+  max-width: 80%;
+  font-family: 'Merriweather-Bold', 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  color: black;
+  text-align: center;
+  padding: 25px 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .message__subtitle {
+  padding: 20px 0;
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .message__subtitle {
+    padding: 20px 0;
+      font-size: 24px;
+  }
+}
+  
+  @media screen and (min-width: 425px) and (max-width: 767px) {
+    .message__subtitle {
+      font-size: 18px;
+      max-width: 300px;
+      padding: 20px 0;
+    }
+  }  
+  @media screen and (max-width: 424px) {
+    .message__subtitle {
+      font-size: 16px;
+      line-height: 110%;
+      max-width: 288px;
+      padding: 18px 0;
+      }
+  }

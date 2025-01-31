@@ -1,0 +1,16 @@
+@import url(../goods/__container/goods__container.css);
+@import url(../goods/__image/goods__image.css);
+@import url(../goods/__paragraph/goods__paragraph.css);
+@import url(../goods/__title/goods__title.css);
+@import url(../goods/__box/goods__box.css);
+@import url(../goods/__render/goods__render.css);
+
+
+
+.goods {
+    max-width: 80vw;
+  }
+
+  .goods__types {
+    margin: o auto;
+  }

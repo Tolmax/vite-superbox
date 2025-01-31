@@ -1,0 +1,15 @@
+.goods__image {
+    max-width: 460px;
+    min-width: 250px;
+		max-height: 300px;
+		object-fit: cover;
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.goods__image:hover {
+	opacity: 0.55;
+  }
